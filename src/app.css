@@ -1,0 +1,13 @@
+html, 
+body {
+    height: 100vh;
+    margin:0px;
+}
+
+#root {
+    height: 100%;
+}
+
+.images {
+    max-width: 100%;
+}

@@ -1,0 +1,30 @@
+{
+  "name": "hlx-admin-ui",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/mboucher/hlx-admin-ui.git",
+  "author": "Marcel Boucher <mboucher@adobe.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "THEME_LIGHT=true THEME_DARKEST=true parcel ./src/index.html --https --cert ./dev/certs/server.crt --key ./dev/certs/server.key --host localhost.corp.adobe.com --open"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.7",
+    "@types/react": "^18.2.25",
+    "@types/react-dom": "^18.2.18",
+    "@types/react-redux": "^7.1.33",
+    "parcel": "^2.11.0",
+    "parcel-bundler": "^1.12.5",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@adobe/react-spectrum": "^3.33.0",
+    "@reduxjs/toolkit": "^2.0.1",
+    "@spectrum-icons/workflow": "^4.2.8",
+    "react": "^18.0",
+    "react-dom": "^18.2.0",
+    "react-native": ">=0.69",
+    "react-redux": "^9.0.4",
+    "redux": "^5.0.0"
+  }
+}
